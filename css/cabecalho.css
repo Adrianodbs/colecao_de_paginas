@@ -6,11 +6,13 @@
 
 .cabecalho {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #0677b8;
   padding: 10px 50px;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 .voltar {
   width: 30px;
