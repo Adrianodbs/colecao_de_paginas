@@ -7,7 +7,7 @@
 .cabecalho {
   display: flex;
   justify-content: center;
-  background-color: #0677b8;
+  /* background-color: #0677b8; */
   padding: 10px 50px;
   align-items: center;
   width: 100%;
@@ -46,7 +46,7 @@
   border-left: 2px solid #fc6d6d;
 
   animation: typing 2.5s steps(10) infinite;
-  background: #0677b8;
+  /* background: #0677b8; */
 }
 
 .dinamico li span{
@@ -59,3 +59,10 @@
     margin: 0 -35px 0 35px;
   }
 } 
+
+@media screen and (max-width:600px){
+  .estatico{
+  display: none;
+  }
+
+}
